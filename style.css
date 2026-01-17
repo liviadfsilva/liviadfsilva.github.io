@@ -187,22 +187,25 @@ section{
 
 @media(max-width:995px){
     .home{
-        gap: 4rem;
-    }
-}
-
-@media(max-width:995px){
-    .home{
         flex-direction: column;
         margin: 5rem 4rem;
-    }
-
-    .home-content h2{
-        font-size: 2.5rem;
+        gap: 4rem;
     }
 
     .home-content h1{
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+
+    .home-content h2{
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        margin: 1rem 1.5rem 1rem 0;
     }
 
     .home-img img{
