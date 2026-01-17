@@ -200,6 +200,12 @@ section{
         font-size: 2rem;
     }
 
+    .typewriter ol{
+        --height: 3rem;
+        height: var(--height);
+        line-height: var(--height);
+    }
+
     .paragraph{
         font-size: 1.5rem;
     }
