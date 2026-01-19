@@ -185,7 +185,37 @@ section{
     70%, 100% {width: 100%;}
 }
 
-@media(max-width:995px){
+@media(max-width:1080px){
+    .home{
+        flex-direction: column;
+        margin: 3rem 2rem;
+        gap: 6rem;
+    }
+
+    .home-content h2{
+        font-size: 4rem;
+    }
+
+    .paragraph{
+        font-size: 1.5rem;
+    }
+
+    .home-content h1{
+        font-size: 6rem;
+    }
+
+    .home-img img{
+        width: 40vh;
+        margin-top: 4rem;
+    }
+
+    .btn{
+        margin: 1rem 1.5rem 1rem 0;
+    }
+
+}
+
+@media (max-width: 768px){
     .home{
         flex-direction: column;
         margin: 3rem 2rem;
@@ -200,22 +230,23 @@ section{
         font-size: 2rem;
     }
 
-    .typewriter ol{
-        --height: 3rem;
-        height: var(--height);
-        line-height: var(--height);
-    }
-
     .paragraph{
         font-size: 1.5rem;
-    }
-
-    .btn{
-        margin: 1rem 1.5rem 1rem 0;
     }
 
     .home-img img{
         width: 50vh;
         margin-top: 4rem;
     }
+
+    .btn{
+        margin: 1rem 1.5rem 1rem 0;
+    }
+
+    .typewriter ol{
+        --height: 4rem;
+        height: var(--height);
+        line-height: var(--height);
+    }
+
 }
