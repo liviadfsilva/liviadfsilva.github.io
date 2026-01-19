@@ -192,16 +192,16 @@ section{
         gap: 6rem;
     }
 
+    .home-content h1{
+        font-size: 6rem;
+    }
+
     .home-content h2{
         font-size: 4rem;
     }
 
     .paragraph{
         font-size: 1.5rem;
-    }
-
-    .home-content h1{
-        font-size: 6rem;
     }
 
     .home-img img{
